@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 What is this?
 =============
 
@@ -90,3 +91,9 @@ You can learn more about Serve on the GitHub project page:
 myapp_compass
 =============
 >>>>>>> 52274c7915901c6b7fecfa29394a87544cd8c141
+=======
+myapp_compass_serve
+===================
+
+The Application has been updated from traditional CSS to Compass and Serve Files
+>>>>>>> 9e68aad8d323a88027f400511e160781931f8a96
