@@ -5,8 +5,8 @@ $reversed-text: false;
 @import "modules/utility";
 
 // Base Font
-$base-font-family: "Helvetica Neue", Hevetica, Arial, sans-serif;
-$base-font-size: 110%;
+$base-font-family: 'Lato', Calibri, Arial, sans-serif;
+$base-font-size: 100%;
 $base-line-height: 1.4;
 
 // Fixed Font
@@ -15,19 +15,32 @@ $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Text Colors
-$text-color: #333333;
+$warm-white: #efeacf;
+$creme: #ead7cf;
+$dark-grey: #666666;
+$grey: #333333;
+$cool-grey: #999999;
+$bright-grey: scale-lightness($cool-grey, 0.5); 
+$coral:  #973b12;
+$ruby: #bb3a08;
+$deep-red: #900; //Used in menu
+$cafe: #aa7722;
+$dusty-blue: #6891a1;        
+$bright-gold: #e2d9a9;
+$orange: #f66933;   
+$text-color: scale-lightness($cool-grey, .25); 
 $loud-color: strengthen($text-color);
-$quiet-color: soften($text-color, 1.5);
+$quiet-color: soften($text-color, .5);
 $header-color: strengthen($text-color, 0.66);
 
 // Link Colors
-$link-color: #bb3a08;
-$link-visited-color: #a72;
-$link-hover-color: #f66933;
+$link-color: ruby;
+$link-visited-color: cafe;
+$link-hover-color: orange;
 
 // Theme Colors
 $background-color: white;
-$banner-color: #973b12;
+$banner-color: scale-lightness($coral, 0.100); 
 
 // Paragraphs
 $indented-paragraphs: false;

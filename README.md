@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 What is this?
 =============
 
@@ -85,3 +86,7 @@ Learning More
 You can learn more about Serve on the GitHub project page:
 
 <http://github.com/jlong/serve>
+=======
+myapp_compass
+=============
+>>>>>>> 52274c7915901c6b7fecfa29394a87544cd8c141
